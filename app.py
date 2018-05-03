@@ -1,7 +1,7 @@
 from flask import Flask, request
 from ciscosparkapi import CiscoSparkAPI
-from sparkbot.bot import Bot
-from sparkbot.config import SUMIT_KEY
+from pokespark.bot import Bot
+from pokespark.config import SUMIT_KEY
 
 app = Flask(__name__)
 api = CiscoSparkAPI(SUMIT_KEY)

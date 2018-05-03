@@ -1,5 +1,5 @@
 import re
-from sparkbot.config import PRODUCTION
+from pokespark.config import PRODUCTION
 import requests
 
 self_trigger_word = 'self'
